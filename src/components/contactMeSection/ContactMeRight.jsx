@@ -35,7 +35,7 @@ const ContactMeRight = () => {
       viewport={{ once: false, amount: 0.2 }}
     >
       <motion.img
-  src="/images/email-image.png"
+  src="/static/images/email-image.png"
   alt="email image"
   className="max-w-[300px]"
   whileHover={{ scale: 1.05 }}

@@ -44,7 +44,7 @@ const HeroPic = () => {
         <div className="relative p-2 rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-orange-400 animate-pulse">
           <div className="relative rounded-full overflow-hidden bg-gray-900 p-1">
             <img
-              src="/images/awais.png"
+              src="/static/images/awais.png"
               alt="Awais Ahmad"
               className="w-80 h-80 md:w-96 md:h-96 object-cover rounded-full border-4 border-gray-800 shadow-2xl"
             />
