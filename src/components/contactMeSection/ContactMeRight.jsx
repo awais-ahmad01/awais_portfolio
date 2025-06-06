@@ -35,12 +35,13 @@ const ContactMeRight = () => {
       viewport={{ once: false, amount: 0.2 }}
     >
       <motion.img
-        src="../../public/images/email-image.png"
-        alt="email image"
-        className="max-w-[300px]"
-        whileHover={{ scale: 1.05 }}
-        transition={{ type: "spring", stiffness: 400, damping: 10 }}
-      />
+  src="/images/email-image.png"
+  alt="email image"
+  className="max-w-[300px]"
+  whileHover={{ scale: 1.05 }}
+  transition={{ type: "spring", stiffness: 400, damping: 10 }}
+/>
+
       <ContactInfo />
       <ContactSocial />
     </motion.div>
