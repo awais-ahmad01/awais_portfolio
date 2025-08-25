@@ -1,20 +1,4 @@
-// import ExperienceTopLeft from "./ExperienceTopLeft";
-// import ExperienceTopMiddle from "./ExperienceTopMiddle";
-// import ExperienceTopRight from "./ExperienceTopRight";
 
-// const ExperienceTop = () => {
-//   return (
-//     <div className="flex lg:flex-row sm:flex-col gap-4 items-center justify-center">
-//       <ExperienceTopLeft />
-//       <ExperienceTopMiddle />
-//       <ExperienceTopRight />
-//     </div>
-//   );
-// };
-
-// export default ExperienceTop;
-
-// ExperienceTop.js
 import ExperienceTopMiddle from "./ExperienceTopMiddle";
 import SingleExperience from "./SingleExperience";
 import { motion } from "framer-motion";
@@ -23,7 +7,7 @@ import { fadeIn } from "../../framerMotion/variants";
 const experience = {
   job: "Frontend Developer",
   company: "Complixen",
-  date: "May 2025 - Present"
+  date: "May 2025 - June 2025"
 };
 
 const ExperienceTop = () => {
