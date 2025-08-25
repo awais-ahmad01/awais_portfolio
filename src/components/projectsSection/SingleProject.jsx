@@ -42,14 +42,14 @@ const SingleProject = ({ name, year, description, align, link, index }) => {
           {description}
         </motion.p>
         
-        {/* <motion.a
+        <motion.a
           href={link}
           className="text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
           View <BsFillArrowUpRightCircleFill />
-        </motion.a> */}
+        </motion.a>
       </motion.div>
     </motion.div>
   );
