@@ -14,7 +14,7 @@ const projects = [
   {
     name: "MindMap",
 
-    description: "A mental wellness journaling app that helps users track moods, write journals, and get AI-powered reflections. Features Google login, email verification, and a personalized dashboard.",
+    description: "A mental wellness journaling app that helps users track moods, write journals, and get AI-powered reflections.",
     link: "https://mind-map-puce-mu.vercel.app",
     align: "left"
   },
